@@ -1,0 +1,15 @@
+package com.user.service.externalservice;
+
+import java.util.List;
+
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.user.service.entities.Rating;
+
+public interface RatingService {
+	
+	@GetMapping("/ratings/users/{userId}")
+	List<Rating> getRatingsByUser(String userId);
+
+}

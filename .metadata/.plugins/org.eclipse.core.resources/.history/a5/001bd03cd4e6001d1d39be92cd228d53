@@ -1,0 +1,10 @@
+package com.user.service.configuration.interceptor;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration
+@Component
+public class FeignClientInterceptor implements RequestInterceptor{
+
+}

@@ -1,0 +1,8 @@
+package com.rating.service.services.impl;
+
+import com.rating.service.services.RatingService;
+
+@Service
+public class RatingServiceImpl implements RatingService{
+
+}

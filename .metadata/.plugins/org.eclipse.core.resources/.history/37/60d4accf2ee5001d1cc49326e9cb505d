@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: jdbc:mongodb://localhost:27017
+      database: microservice
+      

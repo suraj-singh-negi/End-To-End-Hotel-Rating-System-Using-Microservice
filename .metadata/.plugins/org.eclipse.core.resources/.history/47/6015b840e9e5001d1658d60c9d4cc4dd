@@ -1,0 +1,10 @@
+package com.user.service.externalservice;
+
+import com.user.service.entities.Hotel;
+
+@FeignClient(name = "HOTEL-SERVICE")
+public interface HotelService {
+	
+	Hotel getHotel();
+
+}

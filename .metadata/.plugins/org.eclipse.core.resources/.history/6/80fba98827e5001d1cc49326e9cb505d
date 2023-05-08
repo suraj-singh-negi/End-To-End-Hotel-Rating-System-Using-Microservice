@@ -1,0 +1,7 @@
+package com.hotel.service.services.impl;
+
+import com.hotel.service.services.HotelService;
+
+public class HotelServiceImpl implements HotelService{
+
+}

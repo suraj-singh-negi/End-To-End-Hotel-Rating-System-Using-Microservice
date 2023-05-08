@@ -1,0 +1,26 @@
+package com.user.service.configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.oauth2.client.OAuth2AuthorizedClientManager;
+import org.springframework.web.client.RestTemplate;
+
+@Configuration
+public class Config {
+
+	@Bean
+	public RestTemplate restTemplate() {
+		return new RestTemplate();
+	}
+	
+	@Bean
+	public OAuth2AuthorizedClientManager manager(
+		ClientRegistrationRepository clientRegistrationRepository,
+		OAuth2AuthorizedClientRepository oAuth2AuthorizedClientRepository
+			) {
+		
+		O
+		
+	}
+	
+}

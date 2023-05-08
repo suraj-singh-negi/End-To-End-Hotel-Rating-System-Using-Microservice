@@ -1,0 +1,6 @@
+package com.user.service.exceptions;
+
+@ResponseControllerAdvise
+public class GlobalExceptionHandler {
+
+}

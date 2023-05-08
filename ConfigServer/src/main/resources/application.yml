@@ -1,0 +1,8 @@
+  
+spring:  profiles:    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/suraj-singh-negi/config-server-details
+          clone-on-start: true  application:    name: CONFIG-SERVER    server:  port: 8085  
